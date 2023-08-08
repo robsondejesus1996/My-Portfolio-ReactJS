@@ -1,7 +1,18 @@
+import MainContent from "./components/MainContent";
+import Sidebar from "./components/Sidebar";
+
+import "./styles/components/app.sass";
+
+
+
 function App() {
   return (
     <>
-      <h1>Teste</h1>
+      <div className="portfolio">
+        <h1>Robson de Jesus</h1>
+        <Sidebar/>
+        <MainContent/>
+      </div>
     </>
   );
 }
