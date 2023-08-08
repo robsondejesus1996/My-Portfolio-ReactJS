@@ -1,6 +1,7 @@
 import Avatar from '../img/eu.jpg'
 
 import '../styles/components/sidebar.sass'
+import SocialNetworks from './SocialNetworks'
 
 const Sidebar = () => {
     return (
@@ -8,7 +9,7 @@ const Sidebar = () => {
             <img src={Avatar} alt="Robson de Jesus Imagem" />
 
             <p className="title">Engenheiro de Software</p>
-            <p>redes sociais</p>
+            <SocialNetworks/>
             <p>informacoes de contato</p>
             <a href="" className="btn">
                 Download currículo
