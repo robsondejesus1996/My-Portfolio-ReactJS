@@ -7,7 +7,7 @@ const Sidebar = () => {
        <aside id="sidebar">
             <img src={Avatar} alt="Robson de Jesus Imagem" />
 
-            <p className="title">Data Science</p>
+            <p className="title">Engenheiro de Software</p>
             <p>redes sociais</p>
             <p>informacoes de contato</p>
             <a href="" className="btn">
