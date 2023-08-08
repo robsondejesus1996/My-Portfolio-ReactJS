@@ -1,6 +1,19 @@
+import Avatar from '../img/eu.jpg'
+
+import '../styles/components/sidebar.sass'
+
 const Sidebar = () => {
     return (
-        <div>Sidebar</div>
+       <aside id="sidebar">
+            <img src={Avatar} alt="Robson de Jesus Imagem" />
+
+            <p className="title">Data Science</p>
+            <p>redes sociais</p>
+            <p>informacoes de contato</p>
+            <a href="" className="btn">
+                Download currículo
+            </a>
+       </aside>
     )
 }
 
