@@ -1,7 +1,8 @@
+import SocialNetworks from './SocialNetworks'
 import Avatar from '../img/eu.jpg'
 
 import '../styles/components/sidebar.sass'
-import SocialNetworks from './SocialNetworks'
+
 
 const Sidebar = () => {
     return (
