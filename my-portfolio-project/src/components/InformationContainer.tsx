@@ -1,7 +1,33 @@
-const InformationContainer = () =>{
-    return (
-        <div>InformationContainer</div>
-    )
-}
+import "../styles/components/informationcontainer.sass";
 
-export default InformationContainer
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+
+const InformationContainer = () => {
+  return (
+    <section id="information">
+      <div className="info-card">
+        <AiFillPhone id="phone-icon" />
+        <div>
+          <h3>Telefone</h3>
+          <p>(49)99910-7774</p>
+        </div>
+      </div>
+      <div className="info-card">
+        <AiOutlineMail id="email-icon" />
+        <div>
+          <h3>E-mail</h3>
+          <p>robsondejesus1996@hotmail.com</p>
+        </div>
+      </div>
+      <div className="info-card">
+        <AiFillEnvironment id="pin-icon" />
+        <div>
+          <h3>Localização</h3>
+          <p>Curitiba / PR</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default InformationContainer;
