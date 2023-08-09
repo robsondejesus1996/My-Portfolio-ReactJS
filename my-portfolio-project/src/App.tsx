@@ -10,6 +10,7 @@ function App() {
       <Sidebar />
       <MainContent />
       
+      
     </div>
   );
 }
