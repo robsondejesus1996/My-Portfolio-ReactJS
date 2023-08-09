@@ -5,7 +5,7 @@ const ProjectsContainer = () =>{
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit maiores fugit voluptatibus voluptatem harum quo, perferendis cumque suscipit nemo rem!
             </p>
-            <a href="#">
+            <a href="https://github.com/robsondejesus1996" target="_blank">
                 Ver Projetos
             </a>
         </section>
