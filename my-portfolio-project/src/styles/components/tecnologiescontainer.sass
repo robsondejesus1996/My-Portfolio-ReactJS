@@ -1,6 +1,6 @@
 @use '../variables'
 @use '../mixins'
-    
+
 .technologies-container
     margin-bottom: 1rem
 
@@ -8,14 +8,16 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
+        align-items: center
+        justify-content: center
 
     .technology-card
         @include mixins.center
         gap: 1rem
         padding: 1rem
         border: 1px solid #333
-        width: 45%
-        border-radius: variables.$card-border-radius 
+        width: 20%
+        border-radius: variables.$card-border-radius
 
         h3
             color: variables.$text-color
@@ -47,3 +49,27 @@
     #react
         svg
             color: #61DAFB
+
+    #java
+        svg
+            color: red
+
+    #android
+        svg
+            color: white
+
+    #python
+        svg
+            color: blue
+
+    #git
+        svg
+            color: white
+
+    #postgres
+        svg
+            color: blue        
+
+    #django
+        svg
+            color: green          

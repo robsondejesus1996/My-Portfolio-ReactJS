@@ -1,6 +1,10 @@
 import "../styles/components/informationcontainer.sass";
 
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { AiFillPhone, AiOutlineMail, AiFillEnvironment, AiFillLinkedin } from "react-icons/ai";
+
+import {
+  DiGithubBadge,
+} from 'react-icons/di'
 
 const InformationContainer = () => {
   return (
@@ -19,6 +23,22 @@ const InformationContainer = () => {
           <p>robsondejesus1996@hotmail.com</p>
         </div>
       </div>
+      <div className="info-card">
+        <DiGithubBadge id="git-icon" />
+        <div>
+          <h3>GitHub</h3>
+          <a href="https://github.com/robsondejesus1996"><p>robsondejesus1996</p></a>
+        </div>
+      </div>
+
+      <div className="info-card">
+        <AiFillLinkedin id="linkedin-icon" />
+        <div>
+          <h3>Linkedin</h3>
+          <a href="https://www.linkedin.com/in/robson-jesus-88a2a351/"><p>Robson de Jesus</p></a>
+        </div>
+      </div>
+      
       <div className="info-card">
         <AiFillEnvironment id="pin-icon" />
         <div>
