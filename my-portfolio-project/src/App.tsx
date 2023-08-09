@@ -1,5 +1,4 @@
 import MainContent from "./components/MainContent";
-import MainContentNotices from "./components/MainContentNotices";
 import Sidebar from "./components/Sidebar";
 
 import "./styles/components/app.sass";
