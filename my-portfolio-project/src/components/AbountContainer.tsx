@@ -18,7 +18,7 @@ const AbountContainer = () => {
         linguagens e frameworks. Busco oportunidade de estágio para aplicar
         conhecimento e criar soluções impactantes, prontas para enfrentar
         desafios com determinação e trabalho em equipe. Disposto a contribuir
-        com expertise em tecnologia para o crescimento da empresa.
+        com expertise em tecnologia para o crescimento da empresa....
       </p>
     </section>
   );
