@@ -3,7 +3,7 @@ const AbountContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        Busco oportunidades na área de Data Science e Desenvolvimento de
+        Busco oportunidades de estágio na área de Desenvolvimento de
         Sistemas, onde possa aplicar meus conhecimentos em programação, análise
         de dados e desenvolvimento de soluções tecnológicas inovadoras. Com uma
         sólida base em linguagens de programação, frameworks e ferramentas de
